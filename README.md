@@ -1,6 +1,6 @@
 # modern_ui_ux_gpt3
 > A simple **responsive** webpage based on a figma [ design ](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?type=design&node-id=0-1&mode=design&t=oEXDMg8Ncjg1hnkm-0).
-> Live demo [_here_](https://fanciful-cobbler-d35930.netlify.app).
+> Live demo [_here_](https://superlative-elf-9b1672.netlify.app).
 
 
 ## General Information
