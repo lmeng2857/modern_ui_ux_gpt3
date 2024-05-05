@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+// import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
 
@@ -12,17 +14,34 @@ const Navbar = () => {
           <img src={logo} alt="GPT-3 Logo" />
         </div>
         <div className="gpt3__navbar-links-container">
+          {/* <ul>
+            <li>
+              <Link to="/home">Home</Link>
+            </li>
+            <li>
+              <Link to="/wgpt3">What is GPT3?</Link>
+            </li>
+            <li>
+              <Link to="/features">Case Studies</Link>
+            </li>
+            <li>
+              <Link to="/possibility">Open AI</Link>
+            </li>
+            <li>
+              <Link to="/blog">Library</Link>
+            </li>
+          </ul> */}
           <p>
             <a href="#home">Home</a>
           </p>
           <p>
             <a href="#wgpt3">What is GPT3?</a>
+          </p>{" "}
+          <p>
+            <a href="#features">Case Studies</a>
           </p>
           <p>
             <a href="#possibility">Open AI</a>
-          </p>
-          <p>
-            <a href="#features">Case Studies</a>
           </p>
           <p>
             <a href="#blog">Library</a>
@@ -31,7 +50,9 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
         <button>Sign in</button>
-        <button type="button">Sign up</button>
+        <Link to="/signup">
+          <button type="button">Sign up</button>
+        </Link>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
@@ -56,6 +77,23 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
+              {/* <ul>
+                <li>
+                  <Link to="/home">Home</Link>
+                </li>
+                <li>
+                  <Link to="/wgpt3">What is GPT3?</Link>
+                </li>
+                <li>
+                  <Link to="/features">Case Studies</Link>
+                </li>
+                <li>
+                  <Link to="/possibility">Open AI</Link>
+                </li>
+                <li>
+                  <Link to="/blog">Library</Link>
+                </li>
+              </ul> */}
               <p>
                 <a href="#home">Home</a>
               </p>
@@ -63,10 +101,10 @@ const Navbar = () => {
                 <a href="#wgpt3">What is GPT3</a>
               </p>
               <p>
-                <a href="#possibility">Open AI</a>
+                <a href="#features">Case Studies</a>
               </p>
               <p>
-                <a href="#features">Case Studies</a>
+                <a href="#possibility">Open AI</a>
               </p>
               <p>
                 <a href="#blog">Library</a>
@@ -74,7 +112,9 @@ const Navbar = () => {
             </div>
             <div className="gpt3__navbar-menu_container">
               <p>Sign in</p>
-              <button type="button">Sign up</button>
+              <Link to="/signup">
+                <button type="button">Sign up</button>
+              </Link>
             </div>
           </div>
         )}

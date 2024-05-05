@@ -1,34 +1,15 @@
 import "./App.css";
 import React from "react";
-import {
-  Blog,
-  Features,
-  Footer,
-  Header,
-  Possibilities,
-  Brand,
-  Cta,
-  Navbar,
-  Wgpt,
-} from "./containers";
+import Container from "./containers/Container";
+import SignUp from "./SignUp/SignUp";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
-      </div>
-      <Brand />
-
-      <Wgpt />
-      <Features />
-      <Possibilities />
-
-      <Cta />
-      <Blog />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Container></Container>}></Route>
+      <Route path="/signup/*" element={<SignUp />}></Route>
+    </Routes>
   );
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,7 +12,10 @@ const Footer = () => {
         </h1>
       </div>
       <div className="gpt3__footer-button">
-        <button type="button">Request Early Access</button>
+        {/* ///////////////// */}
+        <Link to="/signup">
+          <button type="button">Request Early Access</button>
+        </Link>
       </div>
       <div className="gpt3__footer-container">
         <div className="gpt3__footer-container_logo">

@@ -57,13 +57,6 @@
 
 .gpt3__navbar-sign button:last-child,
 .gpt3__navbar-menu_container button {
-  /* width: 152px;
-  height: 58px;
-  top: 55px;
-  left: 1153px;
-  gap: 0px;
-  opacity: 0px; */
-
   font-family: var(--font-family);
   font-size: 18px;
   font-weight: 500;

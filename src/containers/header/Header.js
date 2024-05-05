@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 import ai from "../../assets/ai.png";
 import people from "../../assets/people.png";
 
 const Header = () => {
   return (
-    <div className="gpt3__header section__padding" id="home">
+    <div className="gpt3__header section__padding " id="home">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
           Let’s Build Something amazing with GPT-3 OpenAI
@@ -19,7 +20,9 @@ const Header = () => {
         <div className="gpt3__header-content__input">
           {/* we can also use <form /> element */}
           <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          <Link to="/signup">
+            <button type="button">Get Started</button>
+          </Link>
         </div>
 
         <div className="gpt3__header-content__people">

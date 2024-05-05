@@ -23,7 +23,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="gpt3__features section__padding">
+    <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">
           The Future is Now and You Just Need to Realize It. Step into Future
@@ -33,7 +33,7 @@ const Features = () => {
       </div>
       <div className="gpt3__features-container">
         {features.map((feature, index) => (
-          <Feature title={feature.title} text={feature.text} />
+          <Feature title={feature.title} text={feature.text} key={index} />
         ))}
       </div>
     </div>

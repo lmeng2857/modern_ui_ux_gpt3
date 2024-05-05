@@ -33,8 +33,8 @@ const Wgpt = () => {
         <p>Explore the Library</p>
       </div>
       <div className="gpt3__whatgpt3-containers">
-        {contentText.map((content) => (
-          <Feature title={content.title} text={content.text} />
+        {contentText.map((content, index) => (
+          <Feature title={content.title} text={content.text} key={index} />
         ))}
       </div>
     </div>

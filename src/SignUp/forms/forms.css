@@ -1,0 +1,112 @@
+.gpt3__signup-forms {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 500px;
+  padding: 0 6rem;
+  color: var(--color-text);
+  margin-bottom: 10rem;
+}
+
+.gpt3__signup-form label,
+.gpt3__signup-form input {
+  width: 100%;
+
+  border: 0;
+  outline: 0;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.gpt3__signup-form label {
+  margin: 30px 0 10px 0;
+}
+
+.gpt3__signup-form input {
+  min-height: 50px;
+
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #052d56;
+  color: white;
+  padding-left: 1rem;
+}
+
+.gpt3__signup-form-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.gpt3__signup-form-button a {
+  width: 200px;
+  min-height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 50px 0;
+  text-align: center;
+  background: transparent;
+  border: 2px solid var(--color-text);
+}
+.gpt3__signup-form-button p {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: none;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  cursor: pointer;
+}
+
+.gpt3__signup-form-button button {
+  width: 200px;
+  min-height: 50px;
+  border-radius: 5px;
+  background: #ff4820;
+  padding: 0.5rem 1rem;
+  margin: 50px 0;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__signup-form-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gpt3__signup-form-button a {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .gpt3__signup-form-button button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.gpt3__signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt3__signup-heading {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 2rem 1rem 0;
+}
+
+.gpt3__signup-heading img {
+  width: 62.56px;
+  height: 16.02px;
+}
+
+.gpt3__signup-succeed {
+  height: 100vh;
+  position: relative;
+  top: 4rem;
+}
+.gpt3__signup-succeed h1 {
+  text-align: center;
+}
