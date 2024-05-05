@@ -13,7 +13,7 @@ const SignUp = () => {
       <Routes>
         <Route path="/" element={<Forms />} />
         <Route path="/checked" element={<Checked />} />
-        <Route path="/succeed" element={<Succeed />} />
+        <Route path="/checked/succeed" element={<Succeed />} />
       </Routes>
     </div>
   );

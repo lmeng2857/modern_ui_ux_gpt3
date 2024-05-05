@@ -14,7 +14,7 @@ const Checked = () => {
   //   passwords: "1234567",
   //   occupation: "student",
   //   city: "London",
-  //   bio: "Billionair Billionair Billionair Billionair Billionair",
+  //   bio: "My bio",
   // };
   // const keys = Object.keys(state);
 
@@ -53,7 +53,7 @@ const Checked = () => {
       </ul>
       <div className="gpt3__signup-checked-button">
         <button onClick={() => navigate("/signup", { state })}>Change</button>
-        <a href="/signup/succeed">
+        <a href="/signup/checked/succeed">
           <p>Continue</p>
         </a>
       </div>
