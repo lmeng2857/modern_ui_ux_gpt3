@@ -8,7 +8,13 @@
 - An excellent exercise in translating a Figma design into a responsive, visually appealing application
 - Opportunity for practicing CSS layout management techniques
 - Offered practical experience in effectively managing applications with multiple and complex components
-- A training project based on a [tutorial](https://www.youtube.com/watch?v=F627pKNUCVQ&list=PLSMvqLRq1VkI0Yx4ZGzqs1qgFUCpzg3vQ) by 'JavaScript Mastery' on YouTube
+- A training project featuring a UI section based on a [tutorial](https://www.youtube.com/watch?v=F627pKNUCVQ&list=PLSMvqLRq1VkI0Yx4ZGzqs1qgFUCpzg3vQ) by 'JavaScript Mastery' on YouTube, supplemented with a self-added sign-up form.
+
+
+## Features
+- Responsive design ensures compatibility across various screen sizes.
+- Access the sign-up form by clicking on "Sign Up", "Get Started", or "Request Early Access" buttons.
+- Users can edit details after their initial input, providing flexibility in the sign-up process.
 
 
 ## Responsive Interface
@@ -17,6 +23,8 @@
 ![Screenshot 2024-05-01 at 18 09 35](https://github.com/lmeng2857/modern_ui_ux_gpt3/assets/92019443/7c824844-0bcf-47f7-83ea-a871151390a7)
 
 ![Screenshot 2024-05-01 at 18 09 55](https://github.com/lmeng2857/modern_ui_ux_gpt3/assets/92019443/fb3c22c8-4c41-4e05-a2ac-284c16bf3cea)
+
+![Screenshot 2024-05-07 at 14 10 08](https://github.com/lmeng2857/modern_ui_ux_gpt3/assets/92019443/25093e89-28f2-4ac5-8163-8dc03b9ab0bf)
 
 
 
