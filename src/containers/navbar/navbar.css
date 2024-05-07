@@ -121,6 +121,9 @@
   .gpt3__navbar {
     padding: 2rem 4rem;
   }
+  .gpt3__navbar-menu_container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 550px) {

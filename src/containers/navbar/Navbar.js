@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import "./navbar.css";
@@ -14,23 +13,6 @@ const Navbar = () => {
           <img src={logo} alt="GPT-3 Logo" />
         </div>
         <div className="gpt3__navbar-links-container">
-          {/* <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/wgpt3">What is GPT3?</Link>
-            </li>
-            <li>
-              <Link to="/features">Case Studies</Link>
-            </li>
-            <li>
-              <Link to="/possibility">Open AI</Link>
-            </li>
-            <li>
-              <Link to="/blog">Library</Link>
-            </li>
-          </ul> */}
           <p>
             <a href="#home">Home</a>
           </p>
@@ -77,23 +59,6 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
-              {/* <ul>
-                <li>
-                  <Link to="/home">Home</Link>
-                </li>
-                <li>
-                  <Link to="/wgpt3">What is GPT3?</Link>
-                </li>
-                <li>
-                  <Link to="/features">Case Studies</Link>
-                </li>
-                <li>
-                  <Link to="/possibility">Open AI</Link>
-                </li>
-                <li>
-                  <Link to="/blog">Library</Link>
-                </li>
-              </ul> */}
               <p>
                 <a href="#home">Home</a>
               </p>
