@@ -75,7 +75,7 @@ const Navbar = () => {
                 <a href="#blog">Library</a>
               </p>
             </div>
-            <div className="gpt3__navbar-menu_container">
+            <div className="gpt3__navbar-menu_container-links-sign">
               <p>Sign in</p>
               <Link to="/signup">
                 <button type="button">Sign up</button>
